@@ -2,9 +2,9 @@ def swap_case(k):
         a = ""
         for i in k:
             if i.isupper() == True:
-                a+=(i.lower())
+                a+= (i.lower())
             else:
-                a+=(i.upper())
+                a+= (i.upper())
         return a
 
 if __name__ == '__main__':
