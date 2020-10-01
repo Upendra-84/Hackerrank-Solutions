@@ -13,11 +13,11 @@ def plusMinus(arr):
     z = 0
     for items in arr:
         if items>0:
-            p = p +1
+            p = p + 1
         elif items<0:
-            n = n+1
-        elif items==0:
-            z = z+1
+            n = n + 1
+        elif items == 0:
+            z = z + 1
     a = float(p/len(arr))
     b = float(n/len(arr))
     c = float(z/len(arr))
